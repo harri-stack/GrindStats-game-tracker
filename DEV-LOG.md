@@ -1,4 +1,4 @@
-# DEVELOPMENT LOG OF GRINDSTATS - A WEB APPLICATION THAT TRACKS YOUR MATCH STATISTICS ACROSS DIFFERENT GAMES AND PRESENTS IT TO YOU TO HELP YOU IMPROVE
+# DEVELOPMENT LOG OF GRINDSTATS
 
 ## I will attempt to make this dev log more in-depth than the last project as this one is vastly more complex and will probably take multiple months
 

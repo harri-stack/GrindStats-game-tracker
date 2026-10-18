@@ -1,0 +1,115 @@
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.eyebrow {
+     color: #a78bfa;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 50px;
+    display: inline-block;
+    padding: 6px 16px;
+    background-color: rgba(61, 37, 102, 0.4);
+    border-radius: 9999px;
+}
+
+body {
+    background-color: #111318;
+    font-family: 'Arial', sans-serif;
+    color: #ffffff;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-size: 0.95rem;
+}
+
+.nav-buttons {
+    display: flex;
+    gap: 12px;
+    margin-left: auto;
+}
+
+.signup-button
+    {
+        background-color: #972eec;
+        color: #ffffff;
+    }
+
+.login-button {
+    background: transparent;
+    color: #ffffff;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #292b35;
+    padding: 10px 1%;
+}
+
+.logo {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.hero {
+    text-align: left;
+    padding: 100px 20% 80px;
+}
+
+.hereo h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.primary-button {
+    background-color: #972eec;
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding: 24px 36px;
+    border-radius: 8px;
+    margin-top: 20px;
+
+}
+
+.primary-button:hover {
+    background-color: #7a1fc4;
+}
+
+.hero-description {
+    font-size: 1.2rem;
+    color: #8b8b8b;
+    margin-top: 20px;
+    max-width: 600px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 20%;
+    gap: 20px;
+}
+
+.feature-card {
+    background-color: #1c1f28;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+    border: 1px solid #292b35;
+}
+
+.footer{
+    text-align: center;
+}

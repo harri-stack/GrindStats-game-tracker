@@ -32,8 +32,42 @@ Add support for manually entering match results
 
 Calculate statistics from saved match data
 
+Add signup/login and basic authentication
+
 ### What I learned today
 
 How HTML, CSS and JavaScript interact together to form structure, style and presentation
 
 How HTML and CSS syntax works
+
+## 20/10/26
+
+## Problem
+
+Changing a button's tag from "button" to "a" altered it's appearance unexpectedly
+
+## Solution
+
+Altered the CSS properties of the button accordingly
+
+### Additions to the app
+
+Added a sign up screen that is completely empty
+
+### Currently working on
+
+Learning DOM manipulation
+
+Working on a sign up screen
+
+### What to do next
+
+Learn JavaScript (I'm a complete beginner to this language)
+
+Create the basic dashboard layout
+
+Add support for manually entering match results
+
+Calculate statistics from saved match data
+
+Add signup/login and basic authentication

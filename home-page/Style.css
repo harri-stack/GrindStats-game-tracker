@@ -41,6 +41,10 @@ button {
     {
         background-color: #972eec;
         color: #ffffff;
+        text-decoration: none;
+        align-items: center;
+        padding: 10px 16px;
+        border-radius: 8px;
     }
 
 .login-button {
@@ -79,8 +83,10 @@ button {
     font-size: 1.5rem;
     padding: 24px 36px;
     border-radius: 8px;
+    text-decoration: none;
+    align-items: center;
     margin-top: 20px;
-
+    display: inline-block;
 }
 
 .primary-button:hover {

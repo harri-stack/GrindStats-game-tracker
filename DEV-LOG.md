@@ -40,6 +40,8 @@ How HTML, CSS and JavaScript interact together to form structure, style and pres
 
 How HTML and CSS syntax works
 
+
+
 ## 20/10/26
 
 ## Problem
@@ -71,3 +73,31 @@ Add support for manually entering match results
 Calculate statistics from saved match data
 
 Add signup/login and basic authentication
+
+
+
+## 26/10/26
+
+### Additions to the app
+
+Finished sign up screen appearance
+
+Created an empty MySQL database using MySQL Workbench
+
+### What to do next
+
+Integrate JavaScript and server-side logic into the sign up page
+
+Create the basic dashboard layout
+
+Add support for manually entering match results
+
+Calculate statistics from saved match data
+
+Finish signup/login and basic authentication
+
+### Currently working on
+
+Researching databases and how to make a backend
+
+Working on a sign up screen

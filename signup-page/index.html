@@ -4,9 +4,16 @@
     <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
     <title>Sign Up - GrindStats</title>
 </head>
 <body>
-    
+    <form class="sign-up-form">
+        <h1 class="sign-up-header">Sign Up</h1>
+        <p class="sign-up-instruction">Enter a username to create an account:</p>
+        <input type="text" class="username" id="username" placeholder="Username" pattern="[A-Za-z0-9_]+" minlength="3" maxlength="20" autocomplete="off" required>
+        <button type="submit" class="signup-button">Sign Up</button>
+    </form>
+    <script src="signup.js"></script>
 </body>
 </html>

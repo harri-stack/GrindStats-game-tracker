@@ -44,11 +44,11 @@ How HTML and CSS syntax works
 
 ## 20/10/26
 
-## Problem
+### Problem
 
 Changing a button's tag from "button" to "a" altered it's appearance unexpectedly
 
-## Solution
+### Solution
 
 Altered the CSS properties of the button accordingly
 
@@ -101,3 +101,45 @@ Finish signup/login and basic authentication
 Researching databases and how to make a backend
 
 Working on a sign up screen
+
+## 3/11/26
+
+### Notable experience
+
+Almost commited my MySQL password to GitHub
+
+### Problem(s)
+
+JavaScript wasn't sending my information to Flask because of a "CORS error"
+
+Despite fixing the CORS error something was still breaking it
+
+### Solution(s)
+
+Defined "CORS(app)" far earlier in the script so it would be read earlier
+
+Replaced the "." in my URL with a "/"
+
+### Additions to the app
+
+Added a virtual environment
+
+Started a backend using python (with flask) that can communicate to my JavaScript username detection script (this took around 5 hours to get working)
+
+### What to do next
+
+Create the basic dashboard layout
+
+Add support for manually entering match results
+
+Calculate statistics from saved match data
+
+Finish signup/login and basic authentication
+
+### Currently working on
+
+Making a backend
+
+Learning SQL
+
+Finding out who Json is 

@@ -11,8 +11,9 @@
     <form class="sign-up-form">
         <h1 class="sign-up-header">Sign Up</h1>
         <p class="sign-up-instruction">Enter a username to create an account:</p>
-        <input type="text" class="username" id="username" placeholder="Username" pattern="[A-Za-z0-9_]+" minlength="3" maxlength="20" autocomplete="off" required>
+        <input type="text" class="username" id="username" placeholder="(This username cannot be changed)" pattern="[A-Za-z0-9_]+" minlength="3" maxlength="20" autocomplete="off" required>
         <button type="submit" class="signup-button" id="signup-button">Sign Up</button>
+        <p class="signup-message" id="signup-message"></p>
     </form>
     <script src="signup.js"></script>
 </body>

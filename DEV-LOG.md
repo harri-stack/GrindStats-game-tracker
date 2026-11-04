@@ -142,4 +142,28 @@ Making a backend
 
 Learning SQL
 
-Finding out who Json is 
+Finding out who Json is
+
+## 4/11/26
+
+### Problem
+
+Username data wasn't being sent to the MySQL database
+
+### Solution
+
+I actually defined the "user_exists" boolean properly 💔
+
+### Additions to the app
+
+Username data now saves and the app will reject already taken username submissions
+
+Frontend interprets any error messages on the signup and JavaScript displays it using a HTML paragraph
+
+### What to do next
+
+Create the basic dashboard layout
+
+Add support for manually entering match results
+
+Calculate statistics from saved match data

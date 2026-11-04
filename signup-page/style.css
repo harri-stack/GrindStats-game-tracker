@@ -40,3 +40,7 @@ body {
     width: 100%;
     max-width: 300px;
 }
+
+.signup-message {
+    color: #ff0000a9;
+}

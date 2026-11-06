@@ -167,3 +167,33 @@ Create the basic dashboard layout
 Add support for manually entering match results
 
 Calculate statistics from saved match data
+
+Add a login screen
+
+### Currently working on
+
+Making a backend
+
+Learning SQL
+
+## 06/11/26
+
+### Additions to the app
+
+Added a functional login screen
+
+Added those "already have an account? Log in" buttons
+
+### What to do next
+
+Create the basic dashboard layout
+
+Add support for manually entering match results
+
+Calculate statistics from saved match data
+
+### Currently working on
+
+Making a backend
+
+Learning SQL

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="../favicon-32x32.png">
+    <link rel="stylesheet" href="Style.css">
+    <title>Login - GrindStats</title>
+</head>
+<body>
+    <form class="login-form">
+        <h1 class="login-header">Login</h1>
+        <p class="login-instruction">Enter your username to log in:</p>
+        <input type="text" class="username" id="username" placeholder="Username" pattern="[A-Za-z0-9_]+" minlength="3" maxlength="20" autocomplete="off" required>
+        <button type="submit" class="login-button" id="login-button">Login</button>
+        <p class="signup-prompt">Don't have an account? <a href="../signup-page/index.html" class="signup-link">Sign Up</a></p>
+        <p class="login-message" id="login-message"></p>
+    </form>
+    <script src="login.js"></script>
+</body>
+</html>

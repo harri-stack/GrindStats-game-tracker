@@ -50,6 +50,9 @@ button {
 .login-button {
     background: transparent;
     color: #ffffff;
+    text-decoration: none;
+    align-items: center;
+    padding: 10px 16px;
 }
 
 .navbar {

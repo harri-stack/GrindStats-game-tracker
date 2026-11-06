@@ -19,7 +19,19 @@ def signup():
     else:
         insert_user_data(username)
         print("User created successfully")
-        return jsonify({"message": "User data inserted successfully"}), 200
+        return jsonify({"message": " "}), 200
+
+@app.route("/api/login", methods=["POST"])
+def login():
+    data = request.get_json()
+    username = data.get("username")
+    user_exists = user_exists_check(username)
+    if user_exists:
+        print("User exists, login successful")
+        return jsonify({"message": " "}), 200
+    else:
+        print("User does not exist, login failed")
+        return jsonify({"message": "Please enter an existing username"}), 400
 
 if __name__ == "__main__":
     app.run(debug=True)

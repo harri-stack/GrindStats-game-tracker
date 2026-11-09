@@ -25,6 +25,11 @@ async function sendData() {
 
         const result = await response.json();
         signupMessage.textContent = result.message;
+
+        if (response.ok) {
+            console.log("Signup successful");
+            window.location.href = "../main-dashboard/index.html";
+        }
     }
 }
 

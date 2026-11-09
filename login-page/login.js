@@ -14,6 +14,11 @@ async function sendData() {
 
         const result = await response.json();
         loginMessage.textContent = result.message;
+
+        if (response.ok) {
+            console.log("Login successful");
+            window.location.href = "../main-dashboard/index.html";
+        }
 }
 
 loginButton.addEventListener("click", function() {

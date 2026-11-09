@@ -197,3 +197,25 @@ Calculate statistics from saved match data
 Making a backend
 
 Learning SQL
+
+## 09/11/26
+
+### Additions to the app
+
+Added empty dashboard screen
+
+### What to do next
+
+Create the basic dashboard layout
+
+Add support for manually entering match results
+
+Calculate statistics from saved match data
+
+### Currently working on
+
+Creating a main dashboard design
+
+Making a backend
+
+Learning SQL

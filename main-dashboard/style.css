@@ -1,0 +1,217 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111318;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+.welcome-message {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: #8941a5;
+    border-bottom: 1px solid #292b35;
+}
+
+.game-tracking {
+    margin: 20px;
+    padding: 20px;
+    background-color: #1e1e2f;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.secondary-header {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #8941a5;
+}
+
+
+.available-games {
+display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.game-card {
+    height: 220px;
+    border-radius: 12px;
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+    color: white;
+}
+
+.rocket-league {
+    background-image: url("./images/rocket-league.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 220px;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.select-rocket-league {
+    color: white;
+    background-color: #0f081d;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-color: #8941a5;
+    border-width: 2px;
+    border-radius: 9999px;
+    border-style: solid;
+    width: 150px;
+    align-self: center;
+}
+
+.select-rocket-league:hover {
+    background-color: #191229;
+    cursor: pointer;
+}
+
+.placeholder-game {
+    background-image: url("./images/placeholder.png");
+    background-size: cover;
+    background-position: center;
+    height: 220px;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.select-placeholder {
+    color: white;
+    background-color: #0f081d;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-color: #8941a5;
+    border-width: 2px;
+    border-radius: 9999px;
+    border-style: solid;
+    width: 150px;
+    align-self: center;
+}
+
+.select-placeholder:hover {
+    background-color: #191229;
+    cursor: pointer;
+}
+
+.placeholder-game2 {
+    background-image: url("./images/placeholder.png");
+    background-size: cover;
+    background-position: center;
+    height: 220px;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.select-placeholder2 {
+    color: white;
+    background-color: #0f081d;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-color: #8941a5;
+    border-width: 2px;
+    border-radius: 9999px;
+    border-style: solid;
+    width: 150px;
+    align-self: center;
+}
+
+.select-placeholder2:hover {
+    background-color: #191229;
+    cursor: pointer;
+}
+
+.placeholder-game3 {
+    background-image: url("./images/placeholder.png");
+    background-size: cover;
+    background-position: center;
+    height: 220px;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.select-placeholder3 {
+    color: white;
+    background-color: #0f081d;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-color: #8941a5;
+    border-width: 2px;
+    border-radius: 9999px;
+    border-style: solid;
+    width: 150px;
+    align-self: center;
+}
+
+.select-placeholder3:hover {
+    background-color: #191229;
+    cursor: pointer;
+}
+
+.placeholder-game4 {
+    background-image: url("./images/placeholder.png");
+    background-size: cover;
+    background-position: center;
+    height: 220px;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.select-placeholder4 {
+    color: white;
+    background-color: #0f081d;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-color: #8941a5;
+    border-width: 2px;
+    border-radius: 9999px;
+    border-style: solid;
+    width: 150px;
+    align-self: center;
+}
+
+.select-placeholder4:hover {
+    background-color: #191229;
+    cursor: pointer;
+}
+
+.placeholder-game5 {
+    background-image: url("./images/placeholder.png");
+    background-size: cover;
+    background-position: center;
+    height: 220px;
+    width: 300px;
+    margin-left: 20px;
+}
+
+.select-placeholder5 {
+    color: white;
+    background-color: #0f081d;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-color: #8941a5;
+    border-width: 2px;
+    border-radius: 9999px;
+    border-style: solid;
+    width: 150px;
+    align-self: center;
+}
+
+.select-placeholder5:hover {
+    background-color: #191229;
+    cursor: pointer;
+}

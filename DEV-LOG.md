@@ -219,3 +219,27 @@ Creating a main dashboard design
 Making a backend
 
 Learning SQL
+
+## 12/11/26
+
+### Additions to the app
+
+Added session storage so the app can track who's logged in
+
+Started the design template for the main dashboard
+
+### What to do next
+
+Create the basic dashboard layout
+
+Add support for manually entering match results
+
+Calculate statistics from saved match data
+
+### Currently working on
+
+Styling the main dashboard
+
+Making a backend that actually tracks statistics
+
+Learning SQL

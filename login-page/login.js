@@ -17,6 +17,7 @@ async function sendData() {
 
         if (response.ok) {
             console.log("Login successful");
+            sessionStorage.setItem("username", data);
             window.location.href = "../main-dashboard/index.html";
         }
 }

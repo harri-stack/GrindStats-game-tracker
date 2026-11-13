@@ -243,3 +243,7 @@ Styling the main dashboard
 Making a backend that actually tracks statistics
 
 Learning SQL
+
+## 13/11/26
+
+I took a day to truly learn the basics of SQL commands and really understand the frontend-backend-database links. I did this by making a project that literally only sends information from JavaScript HTTP requests all the way to MYSQL using Flask

@@ -247,3 +247,31 @@ Learning SQL
 ## 13/11/26
 
 I took a day to truly learn the basics of SQL commands and really understand the frontend-backend-database links. I did this by making a project that literally only sends information from JavaScript HTTP requests all the way to MYSQL using Flask
+
+## 26/11/26
+
+I've spent the past 2 weeks revising for exams. Apologies for the absence
+
+### Problem
+
+Signup page just decided to stop showing a validity error when someone enters an incorrect username format
+
+### Solution
+
+Looped the entire validity check inside the send data function. Kept all the code the same except moving the check inside that. I'm still unsure why a separate check magically stopped working one day
+
+### Additions to the app
+
+Added gradients to make the main dashboard look prettier
+
+Added a log out button that refuses to let the user go back to the dashboard once they logged out
+
+### What to do next
+
+Add support for manually entering match results
+
+Calculate statistics from saved match data
+
+### Currently working on
+
+Nothing, I'm moving onto the actual stat display
